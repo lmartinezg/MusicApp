@@ -12,8 +12,10 @@
         style="@style/ActivityDescriptionStyle"
         android:text="@string/artists_activity_description" />
 
-    <ListView
-        style="@style/ResultsStyle" />
+    <TextView
+        android:id="@+id/artist_textview"
+        style="@style/ResultsStyle"
+        android:text="@string/artistItem" />
 
     <Button
         android:id="@+id/button_goto_main"

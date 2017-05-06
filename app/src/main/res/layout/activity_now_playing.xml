@@ -12,9 +12,78 @@
         style="@style/ActivityDescriptionStyle"
         android:text="@string/nowplaying_activity_description" />
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/DetailedInfoStyle"
+            android:text="@string/track_name" />
+
+        <TextView
+            style="@style/DetailedInfoStyle"
+            android:text="@string/album_name" />
+
+        <TextView
+            style="@style/DetailedInfoStyle"
+            android:text="@string/artist_name" />
+
+        <TextView
+            style="@style/DetailedInfoStyle"
+            android:text="@string/other_info" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_prev"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_skip_previous_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/button_pause"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_pause_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/button_play"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_play_arrow_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/button_stop"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_stop_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/button_next"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_skip_next_black_24dp" />
+
+    </LinearLayout>
+
     <Button
         android:id="@+id/button_goto_main"
         style="@style/ButtonStyle"
         android:text="@string/main_screen" />
+
 
 </LinearLayout>

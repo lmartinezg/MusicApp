@@ -12,8 +12,25 @@
         style="@style/ActivityDescriptionStyle"
         android:text="@string/results_activity_description" />
 
-    <ListView
-        style="@style/ResultsStyle" />
+    <TextView
+        android:id="@+id/result1_textView"
+        style="@style/ResultsStyle"
+        android:text="@string/resultItem1" />
+
+    <TextView
+        android:id="@+id/result2_textView"
+        style="@style/ResultsStyle"
+        android:text="@string/resultItem2" />
+
+    <TextView
+        android:id="@+id/result3_textView"
+        style="@style/ResultsStyle"
+        android:text="@string/resultItem3" />
+
+    <TextView
+        android:id="@+id/result4_textView"
+        style="@style/ResultsStyle"
+        android:text="@string/resultItem4" />
 
     <Button
         android:id="@+id/button_goto_main"

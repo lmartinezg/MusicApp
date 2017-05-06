@@ -8,6 +8,12 @@
     tools:context="com.example.lorenzo.musicapp.MainActivity">
 
     <TextView
+        android:id="@+id/artists_descr_textview"
+        style="@style/ActivityDescriptionStyle"
+        android:text="@string/main_activity_description" />
+
+
+    <TextView
         android:id="@+id/nowplaying_textview"
         style="@style/CategoryStyle"
         android:background="@color/category_now_playing"

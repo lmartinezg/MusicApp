@@ -12,8 +12,10 @@
         style="@style/ActivityDescriptionStyle"
         android:text="@string/albums_activity_description" />
 
-    <ListView
-        style="@style/ResultsStyle" />
+    <TextView
+        android:id="@+id/album_textView"
+        style="@style/ResultsStyle"
+        android:text="@string/albumItem" />
 
     <Button
         android:id="@+id/button_goto_main"

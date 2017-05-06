@@ -12,8 +12,40 @@
         style="@style/ActivityDescriptionStyle"
         android:text="@string/search_activity_description" />
 
-    <ListView
-        style="@style/ResultsStyle" />
+    <EditText
+        android:id="@+id/track_field"
+        style="@style/TextInput"
+        android:hint="@string/trackItem"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/artist_field"
+        style="@style/TextInput"
+        android:hint="@string/artistItem"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/album_field"
+        style="@style/TextInput"
+        android:hint="@string/albumItem"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/playlist_field"
+        style="@style/TextInput"
+        android:hint="@string/playlistItem"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/podcast_field"
+        style="@style/TextInput"
+        android:hint="@string/podcastItem"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button_search"
+        style="@style/ButtonStyle"
+        android:text="@string/search" />
 
     <Button
         android:id="@+id/button_goto_main"
