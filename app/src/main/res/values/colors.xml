@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--
+            &lt;!&ndash; Primary color of the app (shown in the app bar) &ndash;&gt;
+            <color name="primary_color">#4A312A</color>
+
+            &lt;!&ndash; Primary dark color of the app (shown in the status bar) &ndash;&gt;
+            <color name="primary_dark_color">#2F1D1A</color>
+    -->
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for Now Playing -->
+    <color name="category_now_playing">#FD8E09</color>
+
+    <!-- Background color for ArtistsActivity -->
+    <color name="category_artists">#9e9e9e</color>
+
+    <!-- Background color for Albums -->
+    <color name="category_albums">#ef9a9a</color>
+
+    <!-- Background color for Playlists -->
+    <color name="category_playlists">#9e9e9e</color>
+
+    <!-- Background color for Podcasts -->
+    <color name="category_podcasts">#e57373</color>
+
+    <!-- Background color for Detailed Info -->
+    <color name="category_detail">#9e9e9e</color>
+
+    <!-- Background color for Store -->
+    <color name="category_store">#e57373</color>
+
+    <!-- Background color for Search -->
+    <color name="category_search">#9e9e9e</color>
+
+</resources>
