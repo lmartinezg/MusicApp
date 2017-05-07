@@ -22,8 +22,8 @@ public class PlaylistsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create a new Intent to open the {@link NowPlaying}
-                Intent nowPlayingIntent = new Intent(PlaylistsActivity.this, NowPlayingActivity.class);
-                startActivity(nowPlayingIntent);
+                Intent intent = new Intent(PlaylistsActivity.this, NowPlayingActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -35,10 +35,12 @@ public class PlaylistsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create a new Intent to open the {@link Main}
-                Intent mainIntent = new Intent(PlaylistsActivity.this, MainActivity.class);
-                startActivity(mainIntent);
+                Intent intent = new Intent(PlaylistsActivity.this, MainActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
                 finish();
             }
         });
+
     }
 }

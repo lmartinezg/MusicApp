@@ -35,8 +35,9 @@ public class SearchActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create a new Intent to open the {@link Main}
-                Intent mainIntent = new Intent(SearchActivity.this, MainActivity.class);
-                startActivity(mainIntent);
+                Intent intent = new Intent(SearchActivity.this, MainActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
                 finish();
             }
         });

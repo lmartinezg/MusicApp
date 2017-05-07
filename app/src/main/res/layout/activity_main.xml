@@ -17,7 +17,6 @@
             style="@style/ActivityDescriptionStyle"
             android:text="@string/main_activity_description" />
 
-
         <TextView
             android:id="@+id/nowplaying_textview"
             style="@style/CategoryStyle"

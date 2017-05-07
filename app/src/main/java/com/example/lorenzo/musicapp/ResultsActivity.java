@@ -77,8 +77,9 @@ public class ResultsActivity extends Activity {
             @Override
             public void onClick(View view) {
                 // Create a new Intent to open the {@link Main}
-                Intent mainIntent = new Intent(ResultsActivity.this, MainActivity.class);
-                startActivity(mainIntent);
+                Intent intent = new Intent(ResultsActivity.this, MainActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
                 finish();
             }
         });

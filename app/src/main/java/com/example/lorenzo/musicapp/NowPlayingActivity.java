@@ -18,12 +18,12 @@ public class NowPlayingActivity extends AppCompatActivity {
 
         // Set a click listener on that View
         mainButton.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers View is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new Intent to open the {@link MainActivity}
-                Intent mainIntent = new Intent(NowPlayingActivity.this, MainActivity.class);
-                startActivity(mainIntent);
+                // Create a new Intent to open the {@link Main}
+                Intent intent = new Intent(NowPlayingActivity.this, MainActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
                 finish();
             }
         });

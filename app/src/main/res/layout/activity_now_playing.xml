@@ -13,7 +13,6 @@
         style="@style/ActivityDescriptionStyle"
         android:text="@string/nowplaying_activity_description" />
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,7 +42,7 @@
 
         <TextView
             style="@style/SeekBarTimeStyle"
-            android:text="00:00" />
+            android:text="@string/startTime" />
 
         <SeekBar
             android:id="@+id/seekBar"
@@ -51,8 +50,7 @@
 
         <TextView
             style="@style/SeekBarTimeStyle"
-            android:text="03:45" />
-
+            android:text="@string/endTime" />
 
     </LinearLayout>
 
@@ -69,6 +67,7 @@
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/previous"
             android:src="@drawable/ic_skip_previous_black_24dp" />
 
         <ImageButton
@@ -76,6 +75,7 @@
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/pause"
             android:src="@drawable/ic_pause_black_24dp" />
 
         <ImageButton
@@ -83,6 +83,7 @@
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/play"
             android:src="@drawable/ic_play_arrow_black_24dp" />
 
         <ImageButton
@@ -90,6 +91,7 @@
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/stop"
             android:src="@drawable/ic_stop_black_24dp" />
 
         <ImageButton
@@ -97,6 +99,7 @@
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/next"
             android:src="@drawable/ic_skip_next_black_24dp" />
 
     </LinearLayout>
