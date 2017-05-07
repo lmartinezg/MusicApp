@@ -9,7 +9,7 @@
     </style>
 
     <!-- Style for a category of vocabulary words -->
-    <style name="CategoryStyle">
+    <style name="CategoryStyle" parent="AppTheme">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/list_item_height</item>
         <item name="android:gravity">center_vertical</item>
@@ -20,7 +20,7 @@
     </style>
 
     <!-- Style for an Activity Description TextView -->
-    <style name="ActivityDescriptionStyle">
+    <style name="ActivityDescriptionStyle" parent="AppTheme">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:padding">16dp</item>
@@ -31,7 +31,7 @@
     </style>
 
     <!-- Style for Detailed Info -->
-    <style name="DetailedInfoStyle">
+    <style name="DetailedInfoStyle" parent="AppTheme">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">16sp</item>
@@ -45,7 +45,7 @@
     </style>
 
     <!-- Style for Results ListView -->
-    <style name="ResultsStyle">
+    <style name="ResultsStyle" parent="AppTheme">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:padding">16dp</item>
@@ -55,15 +55,46 @@
     </style>
 
     <!-- Style for buttons -->
-    <style name="ButtonStyle">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+    <style name="ButtonStyle" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/button_goToMain_height</item>
+        <item name="android:layout_centerHorizontal">true</item>
         <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginTop">@dimen/button_goToMain_topMargin</item>
     </style>
 
-    <style name="TextInput">
+    <!-- Style for Home button -->
+    <style name="ButtonStyle.Home">
+        <item name="android:drawableLeft">@drawable/ic_home_black_24dp</item>
+        <item name="android:drawableStart">@drawable/ic_home_black_24dp</item>
+    </style>
+
+    <style name="TextInput" parent="AppTheme">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SeekBarContainerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/seek_bar_std_padding</item>
+    </style>
+
+    <style name="SeekBarStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:padding">@dimen/seek_bar_std_padding</item>
+    </style>
+
+    <style name="SeekBarTimeStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/seek_bar_std_padding</item>
+        <item name="android:paddingBottom">16dp</item>
     </style>
 
 </resources>

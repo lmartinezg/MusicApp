@@ -37,6 +37,7 @@ public class ArtistsActivity extends AppCompatActivity {
                 // Create a new Intent to open the {@link Main}
                 Intent mainIntent = new Intent(ArtistsActivity.this, MainActivity.class);
                 startActivity(mainIntent);
+                finish();
             }
         });
 

@@ -1,52 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/tan_background"
-    android:orientation="vertical"
     tools:context="com.example.lorenzo.musicapp.MainActivity">
 
-    <TextView
-        android:id="@+id/artists_descr_textview"
-        style="@style/ActivityDescriptionStyle"
-        android:text="@string/main_activity_description" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tan_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/artists_descr_textview"
+            style="@style/ActivityDescriptionStyle"
+            android:text="@string/main_activity_description" />
 
 
-    <TextView
-        android:id="@+id/nowplaying_textview"
-        style="@style/CategoryStyle"
-        android:background="@color/category_now_playing"
-        android:text="@string/now_playing" />
+        <TextView
+            android:id="@+id/nowplaying_textview"
+            style="@style/CategoryStyle"
+            android:background="@color/category_now_playing"
+            android:text="@string/now_playing" />
 
-    <TextView
-        android:id="@+id/artists_textview"
-        style="@style/CategoryStyle"
-        android:background="@color/category_artists"
-        android:text="@string/artists" />
+        <TextView
+            android:id="@+id/artists_textview"
+            style="@style/CategoryStyle"
+            android:background="@color/category_artists"
+            android:text="@string/artists" />
 
-    <TextView
-        android:id="@+id/albums_textview"
-        style="@style/CategoryStyle"
-        android:background="@color/category_albums"
-        android:text="@string/albums" />
+        <TextView
+            android:id="@+id/albums_textview"
+            style="@style/CategoryStyle"
+            android:background="@color/category_albums"
+            android:text="@string/albums" />
 
-    <TextView
-        android:id="@+id/playlists_textview"
-        style="@style/CategoryStyle"
-        android:background="@color/category_playlists"
-        android:text="@string/playlists" />
+        <TextView
+            android:id="@+id/playlists_textview"
+            style="@style/CategoryStyle"
+            android:background="@color/category_playlists"
+            android:text="@string/playlists" />
 
-    <TextView
-        android:id="@+id/podcasts_textview"
-        style="@style/CategoryStyle"
-        android:background="@color/category_podcasts"
-        android:text="@string/podcasts" />
+        <TextView
+            android:id="@+id/podcasts_textview"
+            style="@style/CategoryStyle"
+            android:background="@color/category_podcasts"
+            android:text="@string/podcasts" />
 
-    <TextView
-        android:id="@+id/search_textview"
-        style="@style/CategoryStyle"
-        android:background="@color/category_search"
-        android:text="@string/search" />
+        <TextView
+            android:id="@+id/search_textview"
+            style="@style/CategoryStyle"
+            android:background="@color/category_search"
+            android:text="@string/search" />
 
-</LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -79,6 +79,7 @@ public class ResultsActivity extends Activity {
                 // Create a new Intent to open the {@link Main}
                 Intent mainIntent = new Intent(ResultsActivity.this, MainActivity.class);
                 startActivity(mainIntent);
+                finish();
             }
         });
 

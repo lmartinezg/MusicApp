@@ -4,6 +4,7 @@
     android:id="@+id/activity_search"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context="com.example.lorenzo.musicapp.SearchActivity">
 
@@ -45,11 +46,13 @@
     <Button
         android:id="@+id/button_search"
         style="@style/ButtonStyle"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:drawableStart="@drawable/ic_search_black_24dp"
         android:text="@string/search" />
 
     <Button
         android:id="@+id/button_goto_main"
-        style="@style/ButtonStyle"
+        style="@style/ButtonStyle.Home"
         android:text="@string/main_screen" />
 
 </LinearLayout>

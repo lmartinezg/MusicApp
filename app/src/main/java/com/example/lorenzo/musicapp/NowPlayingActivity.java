@@ -24,6 +24,7 @@ public class NowPlayingActivity extends AppCompatActivity {
                 // Create a new Intent to open the {@link MainActivity}
                 Intent mainIntent = new Intent(NowPlayingActivity.this, MainActivity.class);
                 startActivity(mainIntent);
+                finish();
             }
         });
 

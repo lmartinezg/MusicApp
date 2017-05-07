@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="list_item_height">72dp</dimen>
+    <dimen name="button_bar_height">72dp</dimen>
+    <dimen name="button_goToMain_topMargin">16dp</dimen>
+    <dimen name="seek_bar_std_padding">16dp</dimen>
+    <dimen name="button_goToMain_height">48dp</dimen>
+
 </resources>

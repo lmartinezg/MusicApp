@@ -37,6 +37,7 @@ public class AlbumsActivity extends AppCompatActivity {
                 // Create a new Intent to open the {@link Main}
                 Intent mainIntent = new Intent(AlbumsActivity.this, MainActivity.class);
                 startActivity(mainIntent);
+                finish();
             }
         });
 

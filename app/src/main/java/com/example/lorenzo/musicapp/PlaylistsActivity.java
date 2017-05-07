@@ -37,6 +37,7 @@ public class PlaylistsActivity extends AppCompatActivity {
                 // Create a new Intent to open the {@link Main}
                 Intent mainIntent = new Intent(PlaylistsActivity.this, MainActivity.class);
                 startActivity(mainIntent);
+                finish();
             }
         });
     }

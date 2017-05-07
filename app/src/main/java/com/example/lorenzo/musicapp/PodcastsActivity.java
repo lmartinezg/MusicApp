@@ -37,6 +37,7 @@ public class PodcastsActivity extends AppCompatActivity {
                 // Create a new Intent to open the {@link Main}
                 Intent mainIntent = new Intent(PodcastsActivity.this, MainActivity.class);
                 startActivity(mainIntent);
+                finish();
             }
         });
     }
